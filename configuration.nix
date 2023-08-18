@@ -46,7 +46,7 @@
     BROWSER = "firefox";
     TERMINAL = "alacritty";
   }; 
-    # Set default apps.
+    # Set default apps. 
 
  
   services.xserver.desktopManager.cinnamon.enable = false;
