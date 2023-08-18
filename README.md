@@ -1,5 +1,5 @@
 # These are my NixOS Configurations. 
-### You can find my configuration at [here.](https://github.com/pullobi/config.nix/configuration.nix)
+### You can find my configuration at [here.](https://github.com/pullobi/config.nix/blob/main/configuration.nix)
 ----
 ## Screenshots
 ![Screenshot_2023-08-18-18-21-21_23363](https://github.com/pullobi/config.nix/assets/52003948/36c9b907-8ec4-4fb2-80e2-9677db658fe9)
