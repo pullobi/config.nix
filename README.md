@@ -1,2 +1,1 @@
-# config.nix
-My Personal NixOS configuration.(i3)
+#These are my NixOS Configurations. 
