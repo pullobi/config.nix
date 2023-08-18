@@ -23,4 +23,10 @@ Copy the configuration:
 `reboot`
 ### Install required packages:
 ```sudo apt-get install i3-i3-gaps feh polybar rofi nvim thunar```
+### Clone the repo, cd into it and copy the configuration
+`git clone https://github.com/pullobi/config.nix/ && cd config.nix && cp -r * ~/.config `
+### Logout from your Desktop Environment, and log in to i3.
+## Notes
+This configuration may not work on your system, Copy my changes (marked with "==") in the configuration.nix file, and add them.
+I don't know what will happen if you copy the file to your configuration.nix file. So I dont recommend doing it, and i am not responsable for any damages.
 
