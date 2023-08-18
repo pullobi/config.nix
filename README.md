@@ -8,11 +8,11 @@
 # Installation
 
 Install i3,i3-gaps,thunar,nvim,rofi,polybar and gcc with nix-env:
-$``` nix-env -i i3 i3-gaps thunar nvim rofi polybar gcc13 git```
+``` nix-env -i i3 i3-gaps thunar nvim rofi polybar gcc13 git```
 
 Copy the configuration
-$``` git clone https://github.com/pullobi/config.nix/ && cd config.nix && cp -r * ~/.config```
+``` git clone https://github.com/pullobi/config.nix/ && cd config.nix && cp -r * ~/.config```
 
 (optional) Restart your computer to set wallpaper or run:
-$ ``` feh --bg-fill ~/.config/i3/walls/*```
+ ``` feh --bg-fill ~/.config/i3/walls/*```
   
