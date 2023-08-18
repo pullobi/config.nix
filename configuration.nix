@@ -24,7 +24,9 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
-  #my things
+
+
+  # ======================= Here are my changes:
 
   programs.neovim = {
    enable = true;
@@ -32,21 +34,28 @@
    viAlias = true;
    vimAlias = true;
   };
-  
+      #Enable neovim , set it as the default editor and set aliases. 
 
   fonts.fonts = with pkgs; [
-   (nerdfonts.override { fonts = ["UbuntuMono"]; })
+   (nerdfonts.override { fonts = ["UbuntuMono"]; }) 
+      # Add the Nerd font for polybar and Alacritty.
 
   ];
   environment.variables = {
     EDITOR = "nvim";
     BROWSER = "firefox";
     TERMINAL = "alacritty";
-  };
+  }; 
+    # Set default apps.
+
  
+  services.xserver.desktopManager.cinnamon.enable = false;
+      # I disabled this because i used cinnamon for my starting DE.
   
-  
-  # end
+   services.xserver.windowManager.i3.enable = true; 
+      #   Enabling i3.
+
+  # ===================== End of my changes
 
   # Set your time zone.
   time.timeZone = "Europe/Istanbul";
@@ -69,9 +78,9 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
   services.xserver.windowManager.i3.enable = true; #   MINEEE
-  # Enable the Cinnamon Desktop Environment.
+  
   services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.cinnamon.enable = false;
+  
 
   # Configure keymap in X11
   services.xserver = {
