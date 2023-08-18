@@ -6,10 +6,13 @@
 ![Screenshot_2023-08-18-18-23-21_2381](https://github.com/pullobi/config.nix/assets/52003948/33058bad-9425-4849-bc06-b5a395109cf0)
 ----
 # Installation
+
 Install i3,i3-gaps,thunar,nvim,rofi,polybar and gcc with nix-env:
 $``` nix-env -i i3 i3-gaps thunar nvim rofi polybar gcc13 git```
+
 Copy the configuration
 $``` git clone https://github.com/pullobi/config.nix/ && cd config.nix && cp -r * ~/.config```
+
 (optional) Restart your computer to set wallpaper or run:
 $ ``` feh --bg-fill ~/.config/i3/walls/*```
   
