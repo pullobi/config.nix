@@ -8,11 +8,19 @@
 # Installation
 
 Install i3,i3-gaps,thunar,nvim,rofi,polybar and gcc with nix-env:
-``` nix-env -i i3 i3-gaps thunar nvim rofi polybar gcc13 git```
+``` nix-env -i i3 i3-gaps thunar nvim rofi polybar gcc13 git feh```
 
 Copy the configuration:
 ``` git clone https://github.com/pullobi/config.nix/ && cd config.nix && cp -r * ~/.config```
 
 (optional) Restart your computer to set wallpaper or run:
  ``` feh --bg-fill ~/.config/i3/walls/*```
+
+#Installation for Pop!_OS or any Debian based systems:
+### Update and Upgrade your System:
+``` sudo apt-get update -y && sudo apt-get upgrade -y```
+### Reboot before making any changes.
+`reboot`
+### Install required packages:
+```sudo apt-get install i3-i3-gaps feh polybar rofi nvim thunar```
 
