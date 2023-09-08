@@ -16,7 +16,7 @@ Copy the configuration:
 (optional) Restart your computer to set wallpaper or run:
  ``` feh --bg-fill ~/.config/i3/walls/*```
 
-#Installation for Pop!_OS or any Debian based systems:
+# Installation for Pop!_OS or any Debian based systems:
 ### Update and Upgrade your System:
 ``` sudo apt-get update -y && sudo apt-get upgrade -y```
 ### Reboot before making any changes.
